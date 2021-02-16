@@ -6,7 +6,7 @@ import numpy as np
 
 # import our Random class from python/Random.py file
 sys.path.append(".")
-from python.Random import Random
+from Random import Random
 
 # main function for our coin toss Python code
 if __name__ == "__main__":
@@ -72,4 +72,5 @@ if __name__ == "__main__":
             for t in range(0,Nmeas):
                 print(random.Exponential(rate), end=' ')
             print(" ")
+
    
